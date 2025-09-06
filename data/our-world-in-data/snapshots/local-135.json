@@ -1,0 +1,143 @@
+{
+  "dataset": "covid_19_cases_deaths",
+  "timestamp": "2025-08-30T14:30:13.302929",
+  "row_count": 410147,
+  "column_count": 5,
+  "memory_usage_mb": 19.87,
+  "columns": [
+    {
+      "name": "date",
+      "type": "string",
+      "nullable": true,
+      "null_count": 410147,
+      "cardinality": 1674,
+      "sample_values": [
+        "2020-01-05",
+        "2020-01-06",
+        "2020-01-07",
+        "2020-01-08",
+        "2020-01-09"
+      ]
+    },
+    {
+      "name": "location",
+      "type": "string",
+      "nullable": true,
+      "null_count": 410147,
+      "cardinality": 246,
+      "sample_values": [
+        "Afghanistan",
+        "Africa",
+        "Albania",
+        "Algeria",
+        "American Samoa"
+      ]
+    },
+    {
+      "name": "iso_code",
+      "type": "string",
+      "nullable": true,
+      "null_count": 410147,
+      "cardinality": 246,
+      "sample_values": [
+        "AFG",
+        "OWID_AFR",
+        "ALB",
+        "DZA",
+        "ASM"
+      ]
+    },
+    {
+      "name": "new_cases",
+      "type": "double",
+      "nullable": true,
+      "null_count": 410147,
+      "min": 0.0,
+      "max": 44236227.0,
+      "mean": 8017.4801,
+      "stddev": 229667.9422
+    },
+    {
+      "name": "new_deaths",
+      "type": "double",
+      "nullable": true,
+      "null_count": 410147,
+      "min": 0.0,
+      "max": 103719.0,
+      "mean": 71.7618,
+      "stddev": 1369.0006
+    }
+  ],
+  "sample_rows": [
+    {
+      "date": "2020-01-05",
+      "location": "Afghanistan",
+      "iso_code": "AFG",
+      "new_cases": 0.0,
+      "new_deaths": 0.0
+    },
+    {
+      "date": "2020-01-06",
+      "location": "Afghanistan",
+      "iso_code": "AFG",
+      "new_cases": 0.0,
+      "new_deaths": 0.0
+    },
+    {
+      "date": "2020-01-07",
+      "location": "Afghanistan",
+      "iso_code": "AFG",
+      "new_cases": 0.0,
+      "new_deaths": 0.0
+    },
+    {
+      "date": "2020-01-08",
+      "location": "Afghanistan",
+      "iso_code": "AFG",
+      "new_cases": 0.0,
+      "new_deaths": 0.0
+    },
+    {
+      "date": "2020-01-09",
+      "location": "Afghanistan",
+      "iso_code": "AFG",
+      "new_cases": 0.0,
+      "new_deaths": 0.0
+    },
+    {
+      "date": "2020-01-10",
+      "location": "Afghanistan",
+      "iso_code": "AFG",
+      "new_cases": 0.0,
+      "new_deaths": 0.0
+    },
+    {
+      "date": "2020-01-11",
+      "location": "Afghanistan",
+      "iso_code": "AFG",
+      "new_cases": 0.0,
+      "new_deaths": 0.0
+    },
+    {
+      "date": "2020-01-12",
+      "location": "Afghanistan",
+      "iso_code": "AFG",
+      "new_cases": 0.0,
+      "new_deaths": 0.0
+    },
+    {
+      "date": "2020-01-13",
+      "location": "Afghanistan",
+      "iso_code": "AFG",
+      "new_cases": 0.0,
+      "new_deaths": 0.0
+    },
+    {
+      "date": "2020-01-14",
+      "location": "Afghanistan",
+      "iso_code": "AFG",
+      "new_cases": 0.0,
+      "new_deaths": 0.0
+    }
+  ]
+}
