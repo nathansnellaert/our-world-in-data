@@ -1,6 +1,6 @@
 """Our World in Data Connector"""
 import os
-os.environ['CONNECTOR_NAME'] = 'our-world-in-data'
+os.environ['CONNECTOR_NAME'] = 'owid'
 os.environ['RUN_ID'] = os.getenv('RUN_ID', 'local-run')
 
 from utils import validate_environment, upload_data
@@ -13,7 +13,7 @@ def main():
     covid_data = process_covid_data()
     
     # Upload dataset
-    upload_data(covid_data, "covid_19_cases_deaths")
+    upload_data(covid_data, "owid_covid_19_cases_deaths")
 
 
 if __name__ == "__main__":
